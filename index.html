@@ -3,14 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--mi estilo-->
+
+    <link rel="stylesheet" href="./css/style.css">
     <!-- JS -->
     <script defer src="./js/main.js"></script>
 
-    <title>primera pre entrega</title>
-</head>
-<body>
+    <title>Segunda pre entrega</title>
 
-    <h1>Margarita Miño</h1>
+</head>
+
+<body>
+<header>
+    <section class="titulo">
+        <h1>Envios de paqueteria</h1>
+    </section>
+    
+</header>
+
+<h2 class="subtitulo">Calculadora de Envíos</h2>
+
+<h4 class="subtitulod">Información de Provincias:</h4>
+</div>
+
+<ul id="listaProvincias"></ul>
+
+<form class="selector" id="formulario">
+    <label for="provincia">Seleccione la provincia:</label>
+    <select id="provincia" name="provincia" required>
+        <option value="Rosario">Rosario</option>
+        <option value="Cordoba">Córdoba</option>
+        <option value="Tucuman">Tucuman</option>
+        <option value="Salta">Salta</option>
+    </select>
+    <br><br>
+    <label for="kilos">Ingrese los kilos:</label>
+    <input type="number" id="kilos" name="kilos" min="0" required>
+    <br><br>
+    <input type="submit" value="Calcular Costo">
+</form>
+<h3 id="resultado"></h3>
+
+<div>
+
+
+<h4>Historial de Envíos:</h4>
+<ul id="historial"></ul>
+
+<button id="limpiarHistorialBtn">Limpiar Historial</button>
+<footer>
+
+</footer>
+
+ 
     
 </body>
 </html>

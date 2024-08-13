@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    justify-content: center;
+    height: 100px;
+    border-radius: 10px;
+}
+.titulo h1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.subtitulo{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.subtitulod{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* .ingresa{
+    display: flex; 
+    flex-wrap: wrap;
+
+    width: 100%;
+
+} */
+/* 
+.selection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    /* margin-top: 50px;
+     */
+/* }
+
+.selection h2{
+    font-size: 20px;
+}
+
+.miestilobt{
+    width: 300px;
+}
+
+.ingrsarpeso{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: 50px;
+ 
+} */
+/* 
+.ingrsarpeso input{
+   width: 50px;
+}
+
+
+
+.tabla{
+    margin-top: 50px;
+} */ 
