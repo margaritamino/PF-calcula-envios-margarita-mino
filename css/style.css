@@ -8,13 +8,14 @@
     flex-wrap: wrap;
     background-color: aqua;
     justify-content: center;
-    height: 100px;
+  
     border-radius: 10px;
 }
 .titulo h1{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    height: 100px;
    
 }
 
@@ -24,52 +25,120 @@
 }
 
 .subtitulod{
+
+
     width: 300px;
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
-/* .ingresa{
-    display: flex; 
-    flex-wrap: wrap;
 
-    width: 100%;
-
-} */
-/* 
-.selection{
+.contenedor{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 200px;
-    margin-left: 50px;
-    margin-right: 50px;
+}
 
-    /* margin-top: 50px;
-     */
-/* }
+.informacion {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 800px;
+   margin-bottom: 20px;  
+   background-color: rgba(12, 161, 187, 0.885);
+   border-radius: 5px;
+   font-size: 16PX;
+}
 
-.selection h2{
+.informacion ul{
+
+    font-size: 18px;
+}
+
+.cargadatos{
+    width: 800px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+label {
+    font-size: 18px;
+}
+
+select{
+    font-size: 18px;
+}
+
+input{
+    font-size: 18px;
+
+}
+
+.totales{
+    background-color: rgb(14, 217, 253);
+    width: 400px;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 18px;
+}
+th {
+    background-color: #f4f4f4;
+}
+
+.botonlim{
+    display: flex;
+   justify-content: center;   
+    margin-top: 50px;  
+
+}
+
+.botonlim button{
+    margin-left: 20px;
     font-size: 20px;
 }
 
-.miestilobt{
-    width: 300px;
-}
-
-.ingrsarpeso{
+.datos-us{
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
-    margin-left: 50px;
- 
-} */
-/* 
-.ingrsarpeso input{
-   width: 50px;
+    justify-content: center;
+    margin-top: 50px;
 }
 
+.datos-us p{
+    font-size: 20px;
+    margin-left: 50px;
+}
 
+.tabla-pre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-.tabla{
+.volver{
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
-} */ 
+}
+
+.volver button{
+    font-size: 20px;
+}
+
